@@ -1,0 +1,16 @@
+body {
+    background: url(nature.webp) ;
+    background-size: cover;
+}
+
+p {
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+
+div {
+    border: 5px solid blue;
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+}
