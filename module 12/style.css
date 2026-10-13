@@ -1,0 +1,63 @@
+h1 {
+    color: green;
+    background-color: bisque;
+    letter-spacing: 9px;
+    word-spacing: 40px;
+    text-align: center;
+}
+
+h2 {
+    color: red;
+    text-decoration: overline;
+}
+
+h3 {
+    color: blue;
+    text-decoration: line-through;
+}
+
+h4 {
+    color: purple;
+    text-decoration: underline;
+}
+
+p {
+    text-indent: 50px;
+    text-align: center;
+   /* writing-mode: vertical-lr;*/
+}
+
+.myElement  {
+    color: orange !important;
+}
+
+#normalText {
+    font-style: normal;
+    font-weight: normal;
+}
+
+#italicText {
+    font-style: italic;
+    font-weight: bold;
+}
+
+#obliqueText {
+    font-style: oblique;
+    font-weight: 900;
+}
+
+a:link {  /* a normal, unvisited link    */
+  color: red;
+}
+
+a:visited {   /* a link that a user has visited  */
+    color: green;
+}
+
+a:hover {  /* a link when a user mouses it   */
+    color: hotpink;
+}
+
+a:active {  /* a link the moment it is clicked   */
+    color: blue;
+}
